@@ -4,7 +4,7 @@ class LoginData extends Component {
   render() {
     return (
       <div>
-        <h1>Welcome to the Jungle! from Class Comp</h1>
+        <h1>React Assignment </h1>
       </div>
     );
   }

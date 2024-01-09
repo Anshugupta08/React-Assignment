@@ -4,7 +4,7 @@ class LoginData extends Component {
   render() {
     return (
       <div>
-        <h1>React Assignment </h1>
+        <h1>React Assignment 75 Days </h1>
       </div>
     );
   }

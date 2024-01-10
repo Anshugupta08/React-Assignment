@@ -6,6 +6,6 @@ import ReactDOM from "react-dom/client";
 // import App from './App.jsx'
 // import './index.css'
 // import LoginData from "./Data.jsx";
-import MyForm from "./login.jsx";
+import InputForm from "./assignment/login01.jsx";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<MyForm />);
+ReactDOM.createRoot(document.getElementById("root")).render(<InputForm />);

@@ -7,6 +7,13 @@ import ReactDOM from "react-dom/client";
 // import './index.css'
 // import LoginData from "./Data.jsx";
 
-import MYForm from "./assignment/login01.jsx";
-
-ReactDOM.createRoot(document.getElementById("root")).render(<MYForm />);
+// import MYForm from "./assignment/login01.jsx";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import ToDolist from "./assignment2/todo.jsx";
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <>
+    <ToDolist />
+    <ToastContainer />
+  </>
+);

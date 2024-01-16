@@ -1,7 +1,7 @@
 import { Component } from "react";
 import "./style.css";
 
-class InputForm extends Component {
+class MYForm extends Component {
   state = {
     fName: "",
     lName: "",
@@ -51,6 +51,7 @@ class InputForm extends Component {
     } = this.state;
 
     console.log("State: ", this.state);
+    //console.log("Name")
 
     return (
       <div className="container">
@@ -190,4 +191,4 @@ class InputForm extends Component {
     );
   }
 }
-export default InputForm;
+export default MYForm;

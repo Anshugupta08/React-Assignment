@@ -1,5 +1,7 @@
 // import React from "react";
 import ReactDOM from "react-dom/client";
+// import HomePage from "./propDrilling- task/Home";
+import AppRouter from "./propDrilling- task/MainRouting";
 // import MyForm from "./Data1";
 // import ClassComponentForm from "./Data3.jsx";
 // import App from "./App.jsx";
@@ -14,5 +16,6 @@ import ReactDOM from "react-dom/client";
 
 // import ProfileObj from "./assignment/Registrationform";
 // import YourComponent from "./ChipComponent/searchbar";
-import Parent from "./Task7feb/parent";
-ReactDOM.createRoot(document.getElementById("root")).render(<Parent />);
+// import Parent from "./Task7feb/parent";
+//import NestedLoopComponent from "./nth tree-task9Feb/parent";
+ReactDOM.createRoot(document.getElementById("root")).render(<AppRouter />);

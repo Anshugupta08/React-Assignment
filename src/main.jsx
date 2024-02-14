@@ -20,6 +20,11 @@ import ReactDOM from "react-dom/client";
 // import Parent from "./Task7feb/parent";
 //import NestedLoopComponent from "./nth tree-task9Feb/parent";
 
-import Navigate from "./themechanger/Navigator/routes";
+// import Navigate from "./themechanger/Navigator/routes";
+// import CalculatorWithUseReducer from "./UseReduce/Calculator";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<Navigate />);
+import CalculatorWithUseReducer from "./firstname/First";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <CalculatorWithUseReducer />
+);

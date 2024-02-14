@@ -1,0 +1,22 @@
+.darktheme {
+  background-color: black;
+  color: white;
+}
+
+.lighttheme {
+  background-color: white;
+  color: black;
+}
+
+#box {
+  height: 50px;
+}
+.darktheme span {
+  background-color: black;
+  color: white;
+}
+
+.lighttheme span {
+  background-color: white;
+  color: black;
+}

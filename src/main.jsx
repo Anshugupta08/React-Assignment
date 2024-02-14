@@ -1,7 +1,8 @@
 // import React from "react";
 import ReactDOM from "react-dom/client";
 // import HomePage from "./propDrilling- task/Home";
-import AppRouter from "./propDrilling- task/MainRouting";
+// import AppRouter from "./propDrilling- task/MainRouting";
+// import { Navigate } from "react-router-dom";
 // import MyForm from "./Data1";
 // import ClassComponentForm from "./Data3.jsx";
 // import App from "./App.jsx";
@@ -18,4 +19,7 @@ import AppRouter from "./propDrilling- task/MainRouting";
 // import YourComponent from "./ChipComponent/searchbar";
 // import Parent from "./Task7feb/parent";
 //import NestedLoopComponent from "./nth tree-task9Feb/parent";
-ReactDOM.createRoot(document.getElementById("root")).render(<AppRouter />);
+
+import Navigate from "./themechanger/Navigator/routes";
+
+ReactDOM.createRoot(document.getElementById("root")).render(<Navigate />);

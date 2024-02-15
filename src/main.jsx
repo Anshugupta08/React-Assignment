@@ -23,8 +23,10 @@ import ReactDOM from "react-dom/client";
 // import Navigate from "./themechanger/Navigator/routes";
 // import CalculatorWithUseReducer from "./UseReduce/Calculator";
 
-import CalculatorWithUseReducer from "./firstname/First";
+// import CalculatorWithUseReducer from "./firstname/First";
+// import Form from "./FormData/FormData";
+import ProblemFocusFix from "./UseRef/1.focusWith-UseRef";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <CalculatorWithUseReducer />
+  <ProblemFocusFix />
 );

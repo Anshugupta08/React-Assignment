@@ -25,8 +25,7 @@ import ReactDOM from "react-dom/client";
 
 // import CalculatorWithUseReducer from "./firstname/First";
 // import Form from "./FormData/FormData";
-import ProblemFocusFix from "./UseRef/1.focusWith-UseRef";
+// import ProblemFocusFix from "./UseRef/1.focusWith-UseRef";
+import OTPBox from "./otpbox/Otp-Box";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <ProblemFocusFix />
-);
+ReactDOM.createRoot(document.getElementById("root")).render(<OTPBox />);

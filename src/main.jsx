@@ -26,6 +26,7 @@ import ReactDOM from "react-dom/client";
 // import CalculatorWithUseReducer from "./firstname/First";
 // import Form from "./FormData/FormData";
 // import ProblemFocusFix from "./UseRef/1.focusWith-UseRef";
-import OTPBox from "./otpbox/Otp-Box";
+// import OTPBox from "./otpbox/Otp-Box";
+import LinkedInAuth from "./Task-17Feb/Looginpage";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<OTPBox />);
+ReactDOM.createRoot(document.getElementById("root")).render(<LinkedInAuth />);
